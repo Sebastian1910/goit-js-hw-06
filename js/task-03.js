@@ -20,7 +20,7 @@ const gallery = document.querySelector(".gallery");
 const createGalleryItem = (image) => {
   return `
     <li class="gallery-item">
-      <img src="${image.url}" alt="${image.alt}" class="gallery-image">
+      <img class="gallery-image" src="${image.url}" alt="${image.alt}" >
     </li>
   `;
 };
