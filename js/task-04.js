@@ -1,3 +1,5 @@
+"use strict";
+
 let counterValue = 0;
 
 const valueSpan = document.getElementById("value");

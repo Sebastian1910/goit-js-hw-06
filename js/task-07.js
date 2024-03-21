@@ -1,3 +1,5 @@
+"use strict";
+
 const fontSizeControl = document.getElementById("font-size-control");
 const textSpan = document.getElementById("text");
 
